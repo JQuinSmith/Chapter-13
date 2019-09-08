@@ -19,4 +19,5 @@ document.querySelector("#saveEntry").addEventListener("click", event => {
     // After clicking the submit button, having the value = an empty string resets the fields for new entries.
         document.querySelector("#favoriteItem").value = ''
         document.querySelector("#storeLocation").value = ''
+        
 })
